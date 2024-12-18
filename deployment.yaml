@@ -52,10 +52,4 @@ spec:
               path: /api/patient-management-service/actuator/health
             initialDelaySeconds: 40
             periodSeconds: 10
-          resources:
-            requests:
-              cpu: "100m"
-              memory: "200Mi"
-            limits:
-              cpu: "500m"
-              memory: "512Mi"
+
